@@ -1,12 +1,11 @@
 {
-  "homepage": "https://ssparser.github.io/Frontend-Portfolio-sidh/nonveg-veg",
   "name": "nonveg-veg",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "depoy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
